@@ -1,0 +1,182 @@
+
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #8B8EA6;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #38495B;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0 0 2rem 0;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+strong, b {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #1C93E5;
+}
+
+@font-face {
+  font-family: 'MaisonNeue';
+  src: url(../fonts/maisonneuebook.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'MaisonNeueBold';
+  src: url(../fonts/maisonneuebold.ttf);
+  font-weight: bold;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+
+/* ==========================================================================
+INTRO STYLES
+========================================================================== */
+
+.intro {
+  background-color: white;
+}
+
+.who-im {
+  font-family: 'MaisonNeue';
+  font-size: 2rem;
+  color: #3C424F;
+}
+
+.what-i-do {
+  font-family: 'MaisonNeue';
+  font-size: 0.9rem;
+  color: #8B8EA6;
+
+}
+
+.contact-me, .sections {
+  padding: 0;
+}
+
+.menu li{
+  display: inline-block;
+  font-family: 'MaisonNeue';
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+.contact-me li {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  font-family: 'MaisonNeue';
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+.aligned {
+  text-align: center;
+}
+
+ .menu {
+   display: none;
+ }
+
+ .logo {
+   text-align: center;
+   padding-left: 5%;
+ }
+
+ header {
+   margin: 3rem 0;
+ }
+
+ section {
+   margin: 10% 0 0 0;
+ }
+
+ @media screen and (min-width:540px) {
+   .aligned {
+     text-align: left;
+   }
+   .logo, .menu {
+     width: 47%;
+     display: inline-block;
+   }
+   .logo {
+     text-align: left;
+   }
+
+   .menu {
+     text-align: right;
+   }
+
+   section {
+      margin: 44% 0 0 5%;
+    }
+
+    .what-i-do, .who-im {
+      width: 75%;
+    }
+  }
+
+  @media screen and (min-width:768px){
+    section {
+       margin: 30% 0 0 5%;
+     }
+     .what-i-do, .who-im {
+       width: 70%;
+     }
+     .who-im {
+       font-size: 2.3rem;
+     }
+     .what-i-do {
+       font-size: 1rem;
+     }
+  }
+
+  @media screen and (min-width:1024px){
+    section {
+       margin: 22% 0 0 5%;
+     }
+     .what-i-do, .who-im {
+       width: 50%;
+     }
+     .who-im {
+       font-size: 2.3rem;
+     }
+     .what-i-do {
+       font-size: 1rem;
+     }
+  }
