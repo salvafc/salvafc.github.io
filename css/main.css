@@ -124,6 +124,7 @@ INTRO STYLES
 
  section {
    margin: 10% 0 0 0;
+   position: relative;
  }
 
  @media screen and (min-width:540px) {
@@ -170,6 +171,13 @@ INTRO STYLES
     section {
        margin: 22% 0 0 5%;
      }
+
+     .container  {
+       position: relative;
+       left: 2%;
+       bottom: -12vh;
+     }
+
      .what-i-do, .who-im {
        width: 50%;
      }
