@@ -115,7 +115,7 @@ INTRO STYLES
 
  .logo {
    text-align: center;
-   padding-left: 5%;
+   padding-left: 6%;
  }
 
  header {
@@ -173,8 +173,9 @@ INTRO STYLES
      }
 
      .container  {
-       position: relative;
-       left: 2%;
+       position: fixed;
+       left: 6%;
+       bottom: 10%;
      }
 
      .what-i-do, .who-im {
